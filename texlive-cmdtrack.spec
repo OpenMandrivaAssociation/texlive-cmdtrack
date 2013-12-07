@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-cmdtrack
 Version:	20121218
-Release:	3
+Release:	4
 Summary:	Check used commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cmdtrack
