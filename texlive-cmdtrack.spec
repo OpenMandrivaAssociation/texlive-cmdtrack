@@ -5,8 +5,8 @@
 # catalog-license lppl1
 # catalog-version undef
 Name:		texlive-cmdtrack
-Version:	20121218
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	Check used commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cmdtrack
