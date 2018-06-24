@@ -5,7 +5,7 @@
 # catalog-license lppl1
 # catalog-version undef
 Name:		texlive-cmdtrack
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Check used commands
 Group:		Publishing
