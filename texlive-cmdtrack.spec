@@ -5,9 +5,9 @@ Summary:	Check used commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cmdtrack
 License:	LPPL1
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.r28910.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.doc.r28910.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.source.r28910.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
