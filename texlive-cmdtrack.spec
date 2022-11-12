@@ -1,19 +1,13 @@
-# revision 28910
-# category Package
-# catalog-ctan /macros/latex/contrib/cmdtrack
-# catalog-date 2012-12-18 12:17:57 +0100
-# catalog-license lppl1
-# catalog-version undef
 Name:		texlive-cmdtrack
-Version:	20190228
+Version:	28910
 Release:	1
 Summary:	Check used commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cmdtrack
 License:	LPPL1
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.r28910.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.doc.r28910.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.source.r28910.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -30,12 +24,12 @@ will be printed in the TeX log, for example: - "mdash was used
 on line 25"; - "ndash was never used".
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -49,7 +43,8 @@ on line 25"; - "ndash was never used".
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
