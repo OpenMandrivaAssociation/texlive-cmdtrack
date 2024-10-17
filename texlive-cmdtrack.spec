@@ -3,7 +3,7 @@ Version:	28910
 Release:	2
 Summary:	Check used commands
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cmdtrack
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/cmdtrack
 License:	LPPL1
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmdtrack.doc.r%{version}.tar.xz
